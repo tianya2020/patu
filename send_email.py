@@ -5,8 +5,8 @@ from email.mime.text import MIMEText
 from email.utils import formataddr
 
 my_sender = '147010753@qq.com'  # 发件人邮箱账号
-my_pass = 'nmdneajjcxxdbhfg'    # 发件人邮箱授权码 不是qq密码
-my_user = '147010753@qq.com'    # 收件人邮箱账号，我这边发送给自己
+my_pass = 'xxxxxxxxxxxxxx'    # 发件人邮箱授权码, 不是qq密码 教程https://zhuanlan.zhihu.com/p/643897161
+my_user = '147010753@qq.com'    # 收件人邮箱账号，发送给自己
 
 
 def email_func(Email_content = None, Email_subject = None):
